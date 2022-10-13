@@ -1,24 +1,22 @@
 import React from "react";
-import { AppBar, Toolbar, IconButton, Stack } from "@mui/material";
+import { IconButton } from "@mui/material";
 import CoffeeIcon from "@mui/icons-material/Coffee";
 import "../resources/navbar.css";
 
 function Navbar() {
   return (
-    <AppBar position="static">
-      <Toolbar className="navbar">
+      <nav className="navbar">
         <IconButton size="large" edge="start" color="inherit" aria-label="logo">
           <CoffeeIcon className="coffee-icon" />
         </IconButton>
-        <Stack direction="row" spacing={2} className="nav-links">
-          <a href="#">Home</a>
-          <a href="#">Menu</a>
-          <a href="#">Events</a>
-          <a href="#">About</a>
-          <a href="#">Contact</a>
-        </Stack>
-      </Toolbar>
-    </AppBar>
+        <ul className="nav-links mb-0">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Menu</a></li>
+          <li><a href="#">Events</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
   );
 }
 
