@@ -173,6 +173,7 @@
   position: absolute;
   width: 100vw;
   height: 140vh;
+  display: none;
   margin: -100px -100px -100px 0;
   /* padding: 50px; */
   padding-top: 125px;
@@ -203,8 +204,16 @@
   transform: none;
 }
 
+/* MEDIA QUERIES */
+
 @media screen and (max-width: 555px) {
   #menu {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 683px) and (max-width: 1024px) {
+  nav a {
     display: none;
   }
 }

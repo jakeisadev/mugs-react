@@ -54,7 +54,7 @@
 }
 
 .about span {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .coffee-container {
@@ -64,20 +64,20 @@
 }
 
 .coffee-container p {
-  font-size: 24px;
+  font-size: 26px;
   font-weight: bold;
   padding: 5px;
 }
 
 .coffee-photos h1 {
-    font-size: 28px;
-    font-weight: bold;
+  font-size: 28px;
+  font-weight: bold;
 }
 
 .coffee-photos img {
-    width: 250px;
-    height: 250px;
-    margin: 10px;
+  width: 250px;
+  height: 250px;
+  margin: 10px;
 }
 
 .review-container {
@@ -96,7 +96,6 @@
 
 .review-container p span {
   font-size: 18px;
-  margin-top: 5px;
 }
 
 footer {
@@ -108,7 +107,8 @@ footer ul.info li {
   list-style-type: none;
   color: white;
   font-size: 16px;
-  text-align: left;line-height: 1.8;
+  text-align: left;
+  line-height: 1.8;
 }
 
 .oliver strong {
@@ -120,11 +120,6 @@ footer ul.info li {
   padding: 15px;
 }
 
-.oliver p::first-letter {
-  font-weight: bold;
-  font-size: 24px;
-}
-
 .oliver img {
   width: 300px;
   height: 250px;
@@ -133,8 +128,8 @@ footer ul.info li {
 /* Snack.js */
 
 .snack-header h1 {
-    font-size: 28px;
-    font-weight: bold;
+  font-size: 28px;
+  font-weight: bold;
 }
 .snack-div > div {
   text-align: left;
@@ -188,5 +183,93 @@ footer ul.info li {
 
   .nav-links {
     display: none;
+  }
+}
+
+@media screen and (min-width: 683px) and (max-width: 1024px) {
+  nav a {
+    display: none;
+  }
+
+  .about p {
+    font-size: 40px;
+  }
+
+  .snack-header h1 {
+    font-size: 36px;
+  }
+
+  .snack-div * div > h2 {
+    font-size: 32px;
+  }
+
+  .snack-div * div > h3 {
+    font-size: 28px;
+  }
+
+  .snack-div * p {
+    font-size: 24px;
+    padding: 5px;
+  }
+
+  .snack-div button:active,
+  .snack-div button:focus,
+  .snack-div button:hover,
+  .snack-div button,
+  /* Info.js coffee-photos div inserted to save space */
+  .coffee-photos button:active,
+  .coffee-photos button:focus,
+  .coffee-photos button:hover,
+  .coffee-photos button {
+    background-color: rgba(24, 30, 33, 255) !important;
+    padding: 15px !important;
+    font-size: 24px;
+  }
+
+  .coffee-container p {
+    font-size: 38px;
+    padding: 10px;
+  }
+
+  .coffee-photos {
+    flex-direction: row !important;
+  }
+
+  .coffee-photos h1 {
+    font-size: 38px;
+  }
+
+  .coffee-photos img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .photos {
+    margin-top: 15px;
+  }
+
+  .review-container p {
+    font-size: 32px;
+  }
+
+  .oliver strong {
+    font-size: 38px;
+  }
+
+  .oliver img {
+    width: 400px;
+    height: 350px;
+  }
+
+  .oliver em {
+    font-size: 20px;
+  }
+
+  .oliver p {
+    font-size: 24px;
+  }
+
+  footer ul.info li {
+    font-size: 20px;
   }
 }

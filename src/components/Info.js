@@ -19,9 +19,7 @@ function Info() {
       </div>
       <div className="about d-flex align-items-center">
         <p className="pt-4">
-          If you’re looking for a place to have amazing coffee and a relaxing
-          atmosphere, this is the place for you.<br></br>
-          <span>(We have free WiFi too!)</span>
+          If you’re looking for free Wi-Fi, good vibes, and amazing coffee... This is the place for you!
         </p>
       </div>
       <Snack />
@@ -34,21 +32,23 @@ function Info() {
       </div>
       <div className="coffee-photos d-flex flex-column align-items-center m-5">
         <h1>One Word: Coffee!</h1>
+        <div className="photos">
         <img src={coffee1} alt="" />
         <img src={coffee2} alt="" />
         <img src={coffee3} alt="" />
         <img src={coffee4} alt="" />
+        </div>
         <Button variant="contained" size="large" className="mt-3 mb-5">
-          What kinds?
+          Coffee Menu
         </Button>
       </div>
-      <div className="review-container pt-5">
+      <div className="review-container pt-4">
         <p>
           "Mugs is the best coffee shop in town. Oliver and his employees are so
           great and the atmosphere is great for meeting your friends, business,
           book clubs, board gaming and more. Forgo the corporate chains and
           enjoy this fantastic small business."<br></br>
-          <span>~ Google Reviewer</span>
+          <span>~ Hope Jada Diaz, 5 Star Review</span>
         </p>
       </div>
       <div className="oliver mt-5 mb-5 d-flex flex-column">
@@ -56,19 +56,19 @@ function Info() {
         <img src={oliver} alt="" className="pb-3"/>
         <em>Audiophile, Explorer, Business owner</em> <br></br>
         <p className="pt-3 oliver-text">
-        on the corner of Park Rd
+        On the corner of Park Rd
         and Selwyn Ave, Oliver Wu has been hard at work serving the people of
         Charlotte for over 11 years. Though, when you love what you do, time
-        never seems to have gone by that quick. As the owner of one of South
+        never seems to have gone by that quick.<br></br><br></br> As the owner of one of South
         Charlotte's most renowned cafe's, Oliver is up early at 3am or 4am
         depending on the day, energized, and ready to prepare "Mug's Coffee" for
-        another day of great coffee, tasty food, and warm memories. A little
+        another day of great coffee, tasty food, and warm memories.<br></br><br></br> A little
         known fact about Oliver is that "Mug's Coffee" is only one of his many
         business ventures. For him, running "Mug's Coffee" is purely for fun.
         Success and incredible service doesn't come easy though. Oliver once
         stated: "When I started Mugs, I was here all the time working 16 hour
         days." which speaks to the level of devotion and pride he takes in
-        providing for his customers.
+        serving his customers.
         </p>
       </div>
       <footer className="d-flex justify-content-center align-items-center pt-3">

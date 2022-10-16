@@ -30,12 +30,12 @@ function Snack() {
         </div>
         <div className="d-flex flex-column mt-4">
           <div className="d-flex justify-content-between mb-2">
-            <h2>Panani</h2>
+            <h2>Panini</h2>
             <h3>$2.50</h3>
           </div>
           <p>
-            Did someone say Eggs, Fresh Bacon, and Cheddar Cheese on a flatbread
-            and toasted? (can add or remove as you please, only until 11:00am).
+            Eggs, Fresh Bacon, and Cheddar Cheese on a flatbread
+            and toasted. (can add or remove as you please, only until 11:00am).
           </p>
         </div>
         <div className="d-flex flex-column mt-4">
@@ -43,7 +43,7 @@ function Snack() {
             <h2>Scone</h2>
             <h3>$2.25</h3>
           </div>
-          <p>We like the chocolate chip one the best!</p>
+          <p>Chocolate chip, Blueberry, and other flavors!</p>
         </div>
         <Button variant="contained" size="large" className="mt-3 mb-5">
           Full Menu
