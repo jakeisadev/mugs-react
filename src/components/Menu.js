@@ -1,10 +1,10 @@
 import React from 'react'
-import Navbar from './Navbar'
+import BackgroundMenu from './BackgroundMenu'
 
 function Menu() {
   return (
     <>
-        <Navbar />
+        <BackgroundMenu />
     </>
   )
 }
