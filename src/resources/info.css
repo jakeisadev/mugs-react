@@ -252,6 +252,11 @@ footer ul.info li {
     font-size: 32px;
   }
 
+  .review-container p span {
+    font-size: 28px;
+    font-style: italic;
+  }
+
   .oliver strong {
     font-size: 38px;
   }
@@ -272,4 +277,282 @@ footer ul.info li {
   footer ul.info li {
     font-size: 20px;
   }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1299px) {
+  nav[role="navigation"] {
+    display: none;
+  }
+
+  .about {
+    display: flex;
+    justify-content: center;
+  }
+
+  .about p {
+    font-size: 45px;
+    text-align: center;
+  }
+
+  .snack-header h1 {
+    font-size: 48px;
+  }
+  .snack-div {
+    padding: 25px;
+  }
+
+  .snack-div * div > h2 {
+    font-size: 42px;
+  }
+
+  .snack-div * div > h3 {
+    font-size: 36px;
+  }
+
+  .snack-div * p {
+    font-size: 32px;
+    padding: 5px;
+  }
+
+  .snack-div button:active,
+  .snack-div button:focus,
+  .snack-div button:hover,
+  .snack-div button,
+  /* Info.js coffee-photos div inserted to save space */
+  .coffee-photos button:active,
+  .coffee-photos button:focus,
+  .coffee-photos button:hover,
+  .coffee-photos button {
+    background-color: rgba(24, 30, 33, 255) !important;
+    padding: 15px !important;
+    font-size: 26px;
+  }
+
+  .coffee-container p {
+    font-size: 45px;
+    padding: 10px;
+  }
+
+  .coffee-photos h1 {
+    font-size: 36px;
+    margin-bottom: 15px;
+  }
+
+  .coffee-photos img {
+    width: 375px;
+    height: 375px;
+  }
+
+  .review-container p {
+    font-size: 38px;
+    padding: 10px;
+  }
+
+  .review-container p span {
+    font-size: 30px;
+  }
+
+  .oliver strong {
+    font-size: 42px;
+  }
+
+  .oliver img {
+    width: 450px;
+    height: 375px;
+  }
+
+  .oliver em {
+    font-size: 24px;
+  }
+
+  .oliver p {
+    font-size: 28px;
+  }
+
+}
+
+@media screen and (min-width: 1300px) and (max-width: 1500px) {
+  nav[role="navigation"] {
+    display: none;
+  }
+
+  .about {
+    display: flex;
+    justify-content: center;
+  }
+
+  .about p {
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .snack-header h1 {
+    font-size: 55px;
+  }
+  .snack-div {
+    padding: 75px;
+  }
+
+  .snack-div * div > h2 {
+    font-size: 48px;
+  }
+
+  .snack-div * div > h3 {
+    font-size: 40px;
+  }
+
+  .snack-div * p {
+    font-size: 36px;
+    padding: 5px;
+  }
+
+  .snack-div button:active,
+  .snack-div button:focus,
+  .snack-div button:hover,
+  .snack-div button,
+  /* Info.js coffee-photos div inserted to save space */
+  .coffee-photos button:active,
+  .coffee-photos button:focus,
+  .coffee-photos button:hover,
+  .coffee-photos button {
+    background-color: rgba(24, 30, 33, 255) !important;
+    padding: 18px !important;
+    font-size: 28px;
+    margin-top: 25px !important;
+  }
+
+  .coffee-container p {
+    font-size: 45px;
+    padding: 10px;
+  }
+
+  .coffee-photos h1 {
+    font-size: 42px;
+    margin-bottom: 25px;
+  }
+
+  .coffee-photos img {
+    width: 425px;
+    height: 425px;
+  }
+
+  .review-container p {
+    font-size: 40px;
+    padding: 15px;
+  }
+
+  .review-container p span {
+    font-size: 36px;
+  }
+
+  .oliver strong {
+    font-size: 48px;
+  }
+
+  .oliver img {
+    width: 475px;
+    height: 400px;
+  }
+
+  .oliver em {
+    font-size: 24px;
+  }
+
+  .oliver p {
+    font-size: 30px;
+  }
+
+}
+
+@media screen and (min-width: 1501px) {
+  nav[role="navigation"] {
+    display: none;
+  }
+
+  .about {
+    display: flex;
+    justify-content: center;
+  }
+
+  .about p {
+    font-size: 60px;
+    text-align: center;
+  }
+
+  .snack-header h1 {
+    font-size: 55px;
+  }
+  .snack-div {
+    padding: 85px;
+  }
+
+  .snack-div * div > h2 {
+    font-size: 48px;
+  }
+
+  .snack-div * div > h3 {
+    font-size: 40px;
+  }
+
+  .snack-div * p {
+    font-size: 36px;
+    padding: 5px;
+  }
+
+  .snack-div button:active,
+  .snack-div button:focus,
+  .snack-div button:hover,
+  .snack-div button,
+  /* Info.js coffee-photos div inserted to save space */
+  .coffee-photos button:active,
+  .coffee-photos button:focus,
+  .coffee-photos button:hover,
+  .coffee-photos button {
+    background-color: rgba(24, 30, 33, 255) !important;
+    padding: 18px !important;
+    font-size: 28px;
+    margin-top: 25px !important;
+  }
+
+  .coffee-container p {
+    font-size: 65px;
+    padding: 55px;
+  }
+
+  .coffee-photos h1 {
+    font-size: 50px;
+    margin-bottom: 25px;
+  }
+
+  .coffee-photos img {
+    width: 475px;
+    height: 475px;
+  }
+
+  .review-container p {
+    font-size: 55px;
+    padding: 55px;
+  }
+
+  .review-container p span {
+    font-size: 38px;
+  }
+
+  .oliver strong {
+    font-size: 52px;
+  }
+
+  .oliver img {
+    width: 500px;
+    height: 425px;
+  }
+
+  .oliver em {
+    font-size: 26px;
+  }
+
+  .oliver p {
+    font-size: 34px;
+  }
+
 }

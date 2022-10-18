@@ -2,6 +2,7 @@ import React from "react";
 import { IconButton } from "@mui/material";
 import CoffeeIcon from "@mui/icons-material/Coffee";
 import "../resources/navbar.css";
+import { Link } from 'react-router-dom'
 
 function Navbar() {
   return (
@@ -15,19 +16,19 @@ function Navbar() {
           <span></span>
 
           <ul id="menu">
-            <a href="#">
+            <a href="/#">
               <li>Home</li>
             </a>
-            <a href="#">
+            <a href="/#">
               <li>About</li>
             </a>
-            <a href="#">
+            <a href="/#">
               <li>Info</li>
             </a>
-            <a href="#">
+            <a href="/#">
               <li>Contact</li>
             </a>
-            <a href="https://erikterwan.com/" target="_blank">
+            <a href="/#">
               <li>Show me more</li>
             </a>
           </ul>
@@ -40,19 +41,19 @@ function Navbar() {
         </IconButton>
         <ul className="nav-links mb-0">
           <li>
-            <a href="#">Home</a>
+            <Link to="/"><a href="/#">Home</a></Link>
           </li>
           <li>
-            <a href="#">Menu</a>
+            <Link to="./Menu"><a href="/#">Menu</a></Link>
           </li>
           <li>
-            <a href="#">Events</a>
+            <a href="/#">Events</a>
           </li>
           <li>
-            <a href="#">About</a>
+            <a href="/#">About</a>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <a href="/#">Contact</a>
           </li>
         </ul>
       </nav>
