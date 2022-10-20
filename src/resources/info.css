@@ -20,6 +20,17 @@
   overflow-x: hidden;
 }
 
+.background-events {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/mugsevents.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 70vh;
+  max-width: 100%;
+  position: relative;
+  overflow-x: hidden;
+}
+
 .background button {
   background: none;
   color: rgba(255, 255, 255, 0.9);
@@ -291,9 +302,9 @@ footer ul.info li {
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1299px) {
-  nav[role="navigation"] {
+  /* nav[role="navigation"] {
     display: none;
-  }
+  } */
 
   .about {
     display: flex;
@@ -383,9 +394,9 @@ footer ul.info li {
 }
 
 @media screen and (min-width: 1300px) and (max-width: 1500px) {
-  nav[role="navigation"] {
+  /* nav[role="navigation"] {
     display: none;
-  }
+  } */
 
   .about {
     display: flex;
@@ -476,9 +487,9 @@ footer ul.info li {
 }
 
 @media screen and (min-width: 1501px) {
-  nav[role="navigation"] {
+  /* nav[role="navigation"] {
     display: none;
-  }
+  } */
 
   .about {
     display: flex;

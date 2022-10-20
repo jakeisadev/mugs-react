@@ -47,7 +47,7 @@ function Navbar() {
             <Link to="./Menu"><a href="/#">Menu</a></Link>
           </li>
           <li>
-            <a href="/#">Events</a>
+          <Link to="./Events"><a href="/#">Events</a></Link>
           </li>
           <li>
             <a href="/#">About</a>
