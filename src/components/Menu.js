@@ -7,13 +7,13 @@ function Menu() {
     <>
       <BackgroundMenu />
       <div className="coffee-header">
-        <h1 className="mt-5">Drinks</h1>
+        <h1 className="pt-3">~ Drinks ~</h1>
       </div>
       <div className="menu-div">
         <div className="d-flex flex-column mt-5">
           <div className="d-flex flex-column justify-content-center mb-3 align-items-center">
             <h2>Coffee</h2>
-            <h3>(Choose Size)</h3>
+            <p>(Choose size, flavors below)</p>
           </div>
           <ul className="size-list">
             <li>Small: $2.15</li>
@@ -202,7 +202,122 @@ function Menu() {
             <h2>Nitro</h2>
           </div>
           <ul className="size-list">
-            <li>Small(Iced): $5.00</li>
+            <li className="mb-5">Small(Iced): $5.00</li>
+          </ul>
+        </div>
+        <div className="flavors-header">
+          <h1 className="pt-3">~ Flavors ~</h1>
+          <p>(Sugar-Free available for + $.55)</p>
+        </div>
+        <ul className="size-list">
+          <li>Vanilla</li>
+          <li>Caramel</li>
+          <li>Hazelnut</li>
+          <li>Salted Caramel</li>
+          <li>Pumpkin</li>
+          <li>Coconut</li>
+          <li>Cinnamon</li>
+          <li>Brown Sugar Cinnamon</li>
+          <li>Mint</li>
+          <li>Almond</li>
+          <li>Irish Cream</li>
+          <li>Lavender</li>
+          <li>Seasonal Flavors</li>
+        </ul>
+        <div className="d-flex flex-column mt-4 extras">
+          <div className="extras-header">
+            <h1 className="pt-3">~ Extras ~</h1>
+          </div>
+          <ul className="size-list">
+            <li>Macha: $1.00</li>
+            <li>Espresso Shot: $1.00</li>
+            <li>Steamed Milk: $.75</li>
+            <li>Milk Subsitute: $.75</li>
+          </ul>
+        </div>
+        <div className="d-flex flex-column mt-4 extras">
+          <div className="extras-header">
+            <h1 className="pt-3">~ Milkshakes ~</h1>
+            <p>(Small: $4.30 / Large: $4.90)</p>
+          </div>
+          <ul className="size-list">
+            <li>Vanilla</li>
+            <li>Vanilla Coffee</li>
+            <li>Chocolate</li>
+            <li>Mocha</li>
+            <li>Espresso</li>
+            <li>Caramel Coffee</li>
+          </ul>
+        </div>
+        <div className="d-flex flex-column mt-4 extras">
+          <div className="extras-header">
+            <h1 className="pt-3">~ Smoothies ~</h1>
+            <p>(Ask for flavors)</p>
+            <p>Small: $4.30 / Large: 4.90</p>
+          </div>
+        </div>
+        <div className="d-flex flex-column mt-4 extras">
+          <div className="extras-header">
+            <h1 className="pt-3">~ Fridge ~</h1>
+          </div>
+          <ul className="size-list">
+            <li>Water Bottle: $1.75</li>
+            <li>Juice: $1.99</li>
+            <li>Soda: $1.85</li>
+            <li>Kombucha: $3.75</li>
+            <li>Yerba: $3.25</li>
+          </ul>
+        </div>
+        <div className="d-flex flex-column mt-4 extras">
+          <div className="extras-header">
+            <h1 className="pt-3">~ Breakfast ~</h1>
+          </div>
+          <h2 className="mt-4">Breads</h2>
+          <ul className="size-list">
+            <li className="mt-3">Panini: $2.50</li>
+            <p>(until 11:00am)</p>
+            <br />
+            <li>Croissant: $2.25</li>
+            <br />
+            <li>Bagel: $2.00</li>
+            <p>(Ask about flavors)</p>
+          </ul>
+          <h2 className="mt-4">Fillings</h2>
+          <ul className="size-list">
+            <li className="mt-3">Bacon: $1.00</li>
+            <li>Chicken Salad: $3.99</li>
+          </ul>
+        </div>
+        <div className="d-flex flex-column mt-4 extras">
+          <div className="extras-header">
+            <h1 className="pt-3">~ Lunch ~</h1>
+          </div>
+          <h2 className="mt-4">Salads</h2>
+          <ul className="size-list">
+            <li className="mt-3">Tuna Salad: $3.99</li>
+            <li>Chicken Salad: $3.99</li>
+          </ul>
+          <h2 className="mt-4">Combos</h2>
+          <ul className="size-list">
+            <li className="mt-3">Combo: $5.99</li>
+            <p className="pt-0 mt-3">+ Sandwich</p>
+            <p className="pt-0">+ Coffee/Tea/Juice</p>
+            <p className="pt-0">+ Chips/Banana/Cookie</p>
+          </ul>
+        </div>
+        <div className="d-flex flex-column mt-4 extras">
+          <div className="extras-header">
+            <h1 className="pt-3">~ Bakery ~</h1>
+          </div>
+          <ul className="size-list">
+            <li className="mt-3">Muffin: $2.50</li>
+            <li>Pound Cake: $2.25</li>
+            <li>Scone: $2.25</li>
+            <li>Cheese Danish: $3.25</li>
+            <li>Chocolate Croissant: $2.50</li>
+            <li>Cookie: $1.00</li>
+            <li>GF Brownie: $3.00</li>
+            <li>GF Muffin: $4.00</li>
           </ul>
         </div>
       </div>
