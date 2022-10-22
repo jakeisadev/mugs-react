@@ -31,7 +31,7 @@ function Home() {
         </p>
       </div>
       <div className="coffee-photos d-flex flex-column align-items-center m-5">
-        <h1>One Word: Coffee!</h1>
+        <h1>Coffee?</h1>
         <div className="photos">
         <img src={coffee1} alt="" />
         <img src={coffee2} alt="" />

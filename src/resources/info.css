@@ -68,7 +68,7 @@
 
 .about {
   background-color: #212121 ;
-  height: 50vh;
+  height: 40vh;
 }
 
 .about p {
@@ -85,7 +85,7 @@
 
 .coffee-container {
   background-color: rgba(205,160,67,255);
-  height: 50vh;
+  height: 40vh;
   position: relative;
 }
 
@@ -106,11 +106,13 @@
   width: 250px;
   height: 250px;
   margin: 10px;
+  border: 2px solid #212121;
+  border-radius: 2px;
 }
 
 .review-container {
-  background-color: #212121 ;
-  height: 50vh;
+  background-color: #212121;
+  height: 40vh;
   position: relative;
 }
 
@@ -181,6 +183,7 @@ footer ul.info li {
 
 .snack-div * div > h3 {
   font-style: italic;
+  border-bottom: 1px dotted #212121;
   margin-right: 15px;
   font-size: 24px;
   font-family: 'Oswald', sans-serif;
@@ -208,7 +211,7 @@ footer ul.info li {
 .coffee-photos button:hover,
 .coffee-photos button {
   background-color: #212121 !important;
-  padding: 10px !important;
+  padding: 15px !important;
   font-family: 'Cormorant Garamond', serif;
 }
 

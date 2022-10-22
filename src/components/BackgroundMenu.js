@@ -7,7 +7,7 @@ function BackgroundMenu() {
       <div className="background background-menu d-flex align-items-center justify-content-center flex-column">
         <img src={coffee} alt="" />
         <h1 className="mb-3">Menu</h1>
-        <button>Order Now</button>
+        <button>Order</button>
       </div>
     </>
   );
