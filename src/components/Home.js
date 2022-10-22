@@ -8,8 +8,10 @@ import coffee4 from "../images/coffee4.png";
 import Button from "@mui/material/Button";
 import oliver from '../images/oliver1.jpg';
 import coffee from "../images/coffee.png";
+import { Link } from 'react-router-dom'
 
 function Home() {
+
   return (
     <>
        <div className="background d-flex align-items-center justify-content-center flex-column">
@@ -39,7 +41,7 @@ function Home() {
         <img src={coffee4} alt="" />
         </div>
         <Button variant="contained" size="large" className="mt-3 mb-5">
-          Coffee Menu
+          <Link to="/Menu">Coffee Menu</Link>
         </Button>
       </div>
       <div className="review-container pt-4">
@@ -53,7 +55,7 @@ function Home() {
       </div>
       <div className="oliver mt-5 mb-5 d-flex flex-column">
         <strong>Oliver Wu</strong> <br />
-        <img src={oliver} alt="" className="pb-3"/>
+        <img src={oliver} alt="" className="mb-3"/>
         <em>Audiophile, Explorer, Business owner</em> <br></br>
         <p className="pt-3 oliver-text">
         On the corner of Park Rd

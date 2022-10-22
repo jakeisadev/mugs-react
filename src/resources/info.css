@@ -110,6 +110,11 @@
   border-radius: 2px;
 }
 
+.coffee-photos button a {
+  color: white;
+  text-decoration: none;
+}
+
 .review-container {
   background-color: #212121;
   height: 40vh;
@@ -217,6 +222,11 @@ footer ul.info li {
   font-family: 'Cormorant Garamond', serif;
 }
 
+.snack-div button a {
+  text-decoration: none;
+  color: white;
+}
+
 @media screen and (max-width: 555px) {
   .background img {
     width: 100px;
@@ -279,7 +289,7 @@ footer ul.info li {
   }
 
   .coffee-photos {
-    flex-direction: row !important;
+    flex-direction: column;
   }
 
   .coffee-photos h1 {

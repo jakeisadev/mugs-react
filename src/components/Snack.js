@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "@mui/material/Button";
+import { Link } from 'react-router-dom'
 
 function Snack() {
   return (
@@ -45,7 +46,7 @@ function Snack() {
           <p>Chocolate chip, Blueberry, and other flavors!</p>
         </div>
         <Button variant="contained" size="large" className="mt-3 mb-5">
-          Full Menu
+          <Link to="/Menu">Full Menu</Link>
         </Button>
         {/* https://zyro.com/preview/campos?utm_medium=affiliate&utm_source=aff1635&utm_campaign=aff35&transaction_id=102fa3945fcc0ecd63f3d09f3e4e4b */}
       </div>
