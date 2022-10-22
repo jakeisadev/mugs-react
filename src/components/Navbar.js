@@ -50,9 +50,6 @@ function Navbar() {
           <Link to="./Events"><a href="/#">Events</a></Link>
           </li>
           <li>
-            <a href="/#">About</a>
-          </li>
-          <li>
             <a href="/#">Contact</a>
           </li>
         </ul>
