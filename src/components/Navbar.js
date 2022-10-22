@@ -50,7 +50,7 @@ function Navbar() {
           <Link to="./Events"><a href="/#">Events</a></Link>
           </li>
           <li>
-            <a href="/#">Contact</a>
+            <Link to="./Contact"><a href="/#">Contact</a></Link>
           </li>
         </ul>
       </nav>
