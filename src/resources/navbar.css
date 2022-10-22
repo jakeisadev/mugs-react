@@ -1,14 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-
-* {
-  font-family: "Poppins", sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Oswald:wght@300&display=swap');
 
 .navbar {
   justify-content: space-between;
-  background-color: rgba(24, 30, 33, 255);
+  background-color: #212121 ;
   height: 8vh;
   width: 100%;
+  font-family: 'Oswald', sans-serif;
 }
 
 .MuiButtonBase-root {

@@ -5,7 +5,7 @@ function Snack() {
   return (
     <>
     <div className="snack-header">
-      <h1 className="mt-5">Morning Munchies?</h1>
+      <h1 className="mt-5">Morning Bites</h1>
       </div>
       <div className="snack-div">
         <div className="d-flex flex-column mt-5">
