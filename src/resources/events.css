@@ -1,7 +1,7 @@
 .event-container {
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
+    margin: 50px 0 50px 0 !important;
 }
 
 .event-container {
@@ -13,6 +13,27 @@
     height: 300px;
     margin: auto;
     padding: 20px;
+}
+
+@media screen and (min-width: 683px) and (max-width: 1024px) {
+    .flex-item img {
+        width: 700px;
+        height: 700px;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1299px) {
+    .flex-item img {
+        width: 800px;
+        height: 800px;
+    }
+}
+
+@media screen and (min-width: 1300px) and (max-width: 1500px) {
+    .flex-item img {
+        width:1000px;
+        height: 1000px;
+    }
 }
 
 @media screen and (min-width: 1501px) {

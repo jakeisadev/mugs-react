@@ -1,6 +1,7 @@
 import React from "react";
 import BackgroundMenu from "./BackgroundMenu";
 import "../resources/menu.css";
+import Footer from './Footer'
 
 function Menu() {
   return (
@@ -336,6 +337,7 @@ function Menu() {
           </ul>
         </div>
       </div>
+      <Footer />
     </>
   );
 }

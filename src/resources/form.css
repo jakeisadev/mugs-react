@@ -44,3 +44,51 @@
     font-family: 'Cormorant Garamond', serif;
     font-size: 24px;
 }
+
+iframe {
+    margin: 50px 0 50px 0;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    iframe {
+        width: 80%;
+    }
+
+    .form-container button {
+        font-size: 24px;
+        width: 120px;
+        padding: 10px;
+        color: white;
+        background-color: rgba(24, 30, 33, 255);
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .form-container {
+        width: 500px
+    }
+
+    .form-container h1 {
+        font-size: 42px;
+    }
+    
+    .form-container label {
+        font-size: 28px;
+    }
+    
+    .form-container input {
+        font-size: 26px;
+    }
+    
+    .form-container textarea {
+        font-size: 24px;
+    }
+    
+    .form-container button {
+        font-size: 28px;
+        width: 150px;
+        padding: 10px;
+        color: white;
+        background-color: rgba(24, 30, 33, 255);
+    }
+}

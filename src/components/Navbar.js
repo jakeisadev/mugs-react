@@ -15,7 +15,8 @@ function Navbar() {
           <span></span>
           <span></span>
 
-          <ul id="menu">
+        </div>
+        <ul id="menu">
             <a href="/#">
               <li>Home</li>
             </a>
@@ -32,7 +33,6 @@ function Navbar() {
               <li>Show me more</li>
             </a>
           </ul>
-        </div>
       </nav>
       {/* Navbar type split */}
       <nav className="navbar">

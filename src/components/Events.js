@@ -3,6 +3,7 @@ import coffee from "../images/coffee.png";
 import nov22events from "../images/nov22events.jpg";
 import dec22events from "../images/dec22events.jpg";
 import "../resources/events.css";
+import Footer from './Footer'
 
 function Events() {
   return (
@@ -20,6 +21,7 @@ function Events() {
           <img src={dec22events} alt="" />
         </div>
       </div>
+      <Footer />
     </>
   );
 }

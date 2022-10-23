@@ -9,6 +9,7 @@ import Button from "@mui/material/Button";
 import oliver from '../images/oliver1.jpg';
 import coffee from "../images/coffee.png";
 import { Link } from 'react-router-dom'
+import Footer from './Footer'
 
 function Home() {
 
@@ -73,15 +74,7 @@ function Home() {
         serving his customers.
         </p>
       </div>
-      <footer className="d-flex justify-content-center align-items-center pt-3">
-        <div className="business-info">
-          <ul className="info">
-            <li>Mugs' Coffee</li>
-            <li>5126 Park Rd #1d, Charlotte, NC 28209, United States</li>
-            <li> Dine-in · Takeaway · No delivery</li>
-          </ul>
-        </div>
-      </footer>
+     <Footer />
     </>
   );
 }
