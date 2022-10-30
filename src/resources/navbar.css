@@ -167,6 +167,7 @@
 #menu
 {
   border: 1px solid red;
+  display: none;
   position: absolute;
   width: 100vw;
   height: 140vh;
