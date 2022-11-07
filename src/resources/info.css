@@ -3,10 +3,7 @@
     url("../images/mugs10.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 70vh;
   max-width: 100%;
-  position: relative;
-  overflow-x: hidden;
   letter-spacing: 2px;
 }
 
@@ -46,14 +43,12 @@
 .background button {
   background: none;
   color: rgba(255, 255, 255, 0.9);
-  border: 3px solid white;
-  padding: 0;
-  font: inherit;
+  border: 2px solid white;
+  padding: 5px 10px;
   cursor: pointer;
   outline: inherit;
   width: 150px;
-  height: 60px;
-  font-size: 32px;
+  font-size: 1.5em;
   margin: 0 auto;
   border-radius: 10px;
   transition: 0.2s;
