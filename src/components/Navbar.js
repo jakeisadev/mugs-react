@@ -24,10 +24,10 @@ function Navbar() {
   </div>
   
   <div className="nav-links">
-    <Link to="/"><a href="/#">Home</a></Link>
-    <Link to="./Menu"><a href="/#">Menu</a></Link>
-    <Link to="./Events"><a href="/#">Events</a></Link>
-    <Link to="./Contact"><a href="/#">Contact</a></Link>
+    <Link to="/"><a href="/#" target="_blank">Home</a></Link>
+    <Link to="./Menu"><a href="/#" target="_blank">Menu</a></Link>
+    <Link to="./Events"><a href="/#" target="_blank">Events</a></Link>
+    <Link to="./Contact"><a href="/#" target="_blank">Contact</a></Link>
   </div>
 </div>
       {/* <nav role="navigation">

@@ -28,7 +28,7 @@
   .nav > .nav-links {
     display: inline;
     float: right;
-    font-size: 18px;
+    font-size: 21px;
     font-family: 'Oswald', sans-serif;
   }
   
@@ -90,7 +90,13 @@
     }
     .nav > .nav-links > a {
       display: block;
+      font-size: 24px;
       width: 100%;
+    }
+    .nav > .nav-links > a > a {
+      color: #fff;
+      text-decoration: none;
+      letter-spacing: 1px;
     }
     .nav > #nav-check:not(:checked) ~ .nav-links {
       height: 0px;
