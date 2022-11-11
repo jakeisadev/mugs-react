@@ -68,13 +68,13 @@
 
 .background h1 {
   color: rgba(241, 231, 241, 0.9) !important;
-  font-size: 84px;
+  font-size: 64px;
   font-family: 'Oswald', sans-serif;
 }
 
 .about {
   background-color: #212121 ;
-  height: 40vh;
+  /* height: 40vh; */
 }
 
 .about p {
@@ -91,7 +91,6 @@
 
 .coffee-container {
   background-color: rgba(205,160,67,255);
-  height: 40vh;
   position: relative;
 }
 
@@ -123,16 +122,15 @@
 
 .review-container {
   background-color: #212121;
-  height: 40vh;
   position: relative;
 }
 
 .review-container p {
   color: white;
   font-weight: bold;
-  font-size: 22px;
+  font-size: 20px;
   text-align: center;
-  padding: 5px;
+  padding: 1em;
   font-family: 'Oswald', sans-serif;
 }
 
@@ -234,6 +232,10 @@ footer ul.info li {
 }
 
 @media screen and (max-width: 555px) {
+  .background {
+    padding: 2em;
+  }
+  
   .background img {
     width: 100px;
     height: 100px;
@@ -241,7 +243,22 @@ footer ul.info li {
 
   .background h1 {
     color: rgba(241, 231, 241, 0.82);
-    font-size: 52px;
+    font-size: 36px;
+    letter-spacing: normal;
+  }
+
+  .about p {
+    margin: .5em 1.5em 1.5em 1.5em;
+    font-size: 20px;
+  }
+
+  .coffee-container p {
+    font-size: 20px;
+    padding: 1em;
+  }
+
+  .review-container {
+
   }
 
   .nav-links {

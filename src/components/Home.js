@@ -26,7 +26,7 @@ function Home() {
         </p>
       </div>
       <Snack />
-      <div className="coffee-container pt-5">
+      <div className="coffee-container">
         <p>
           Mugs is a local, independently owned, coffee shop in the South
           Charlotte/South Park area. Just about everything from our coffee beans
