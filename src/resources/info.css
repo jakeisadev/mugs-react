@@ -12,10 +12,7 @@
     url("../images/mugsmenu.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 70vh;
   max-width: 100%;
-  position: relative;
-  overflow-x: hidden;
 }
 
 .background-events {
@@ -23,10 +20,7 @@
     url("../images/mugsevents.png");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 70vh;
   max-width: 100%;
-  position: relative;
-  overflow-x: hidden;
 }
 
 .background-contact {
@@ -34,10 +28,7 @@
     url("../images/mugs7.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 70vh;
   max-width: 100%;
-  position: relative;
-  overflow-x: hidden;
 }
 
 .background button {
@@ -130,7 +121,7 @@
   font-weight: bold;
   font-size: 20px;
   text-align: center;
-  padding: 1em;
+  padding: 1em 0 2em 0;
   font-family: 'Oswald', sans-serif;
 }
 
