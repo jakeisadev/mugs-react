@@ -4,9 +4,11 @@
     height: 50px;
     width: 100%;
     background-color: #212121 !important;
-    position: relative;
+    /* position: relative; */
     justify-content: space-between;
     font-family: 'Oswald', sans-serif;
+    position: sticky; 
+    top: 0;
   }
   
   .nav > .nav-header {
@@ -47,6 +49,9 @@
     display: none;
   }
 
+  label[for="nav-check"] span {
+    
+  }
 
 .coffee-icon {
     width: 40px !important;
